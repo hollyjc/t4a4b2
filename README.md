@@ -20,3 +20,11 @@ This is deployed to heroku.
 
 ## Link to deployed app:
 http://hcoopert4a4b.herokuapp.com/
+
+
+# Documentation
+- dataflow diagram
+- app architecture diagram
+- user stories
+- wire frames
+- trello screen shots from part a
