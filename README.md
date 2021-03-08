@@ -9,7 +9,14 @@ This app is a relaxed space for people to talk about their pets. No more and no 
 - JavaScript/CSS
 - HTML5
 - Jinja
+- Postgres Database
 
+# Cloud Service
+This is deployed to heroku.
+
+# User Testing
+- insert user testing sheet
+- insert trello board for time management 
 
 ## Link to deployed app:
 http://hcoopert4a4b.herokuapp.com/
