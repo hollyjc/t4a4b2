@@ -1,4 +1,15 @@
-# T4A4 PART B 
+# T4A4 PART B - Calm Down Pets
+
+# Description
+This app is a relaxed space for people to talk about their pets. No more and no less. Just people who want to calmly talk about their pets and read about others pets.
+
+# Tech Stack
+- Bootstrap
+- Flask/Python
+- JavaScript/CSS
+- HTML5
+- Jinja
+
 
 ## Link to deployed app:
 http://hcoopert4a4b.herokuapp.com/
