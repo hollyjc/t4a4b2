@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block body %}
+<!-- Page Header -->
+{% if post.img_url[0:4] == 'http' %}
+  {% set img = post.img_url %}
+  {% set link = img%}
+{% else %}
+  {% set img = 'img/'+ post.img_url %}
+  {% set link = url_for('static', filename=img)%}
+{% endif %}
+
+
+<header class="masthead" style="background-image: url({{link}})">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>{{post.title}}</h1>
+          <h2 class="subheading">{{post.subtitle}}</h2>
+          <span class="meta">Posted by
+            <a href="#">{{post.userid}}</a>
+            on {{post.date}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto" id="post">
+         {{post.content}}
+      </div>
+    </div>
+  </div>
+</article>
+
+{% endblock %}

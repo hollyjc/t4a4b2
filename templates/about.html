@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<!-- Page Header -->
+<header class="masthead"
+    style="background-image: url('         {{ url_for('static', filename='img/about-bg.jpg') }}       ')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="page-heading">
+                    <h1>About</h1>
+                    <span class="subheading">Calm Down Pets</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <p>
+                Welcome to calm down pets. This is a calm space that caters to people who may struggle with things like being overstimulated or overwhelmed with regular web pages (although anyone is welcome!) 
+            </p>
+            <p>
+                Come make a profile, and make a post about your pet and show them off to the rest of the community!
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
