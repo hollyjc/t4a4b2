@@ -1,4 +1,4 @@
-T4A4B
+ -vT4A4B
 
 # lastassignment
 # lastassignment
