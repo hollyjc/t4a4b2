@@ -21,6 +21,11 @@ This is deployed to heroku.
 ## Link to deployed app:
 http://hcoopert4a4b.herokuapp.com/
 
+## Install 
+To install this locally do the following:
+- Clone the repo
+- Install requirements ( pip install - requirements.txt)
+- Enjoy :-)
 
 # Documentation
 - dataflow diagram
