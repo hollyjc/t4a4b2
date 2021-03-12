@@ -86,9 +86,14 @@ User utilising website for blogging
 
 As a user I want to be able to register for an account and then log in to the registered account and posts blogs. Given that the user wants to register an account, login and make blog posts, the user must be able to easily sign up with an email and password. To do this there needs to be a clear ‘Register’ button in the navigation, this will need to alert the user when the account has been created successfully. Then, the user wants to login, there will need to be another button in the navigation bar that the user can click to easily login to their account, the website should redirect the user when they are successfully logged in to their home page. Given that the user wants to post blogs, there will need to be a clear section and button where the user can post a blog.
 
+R5 - 
+![](https://i.imgur.com/fbqf6il.png)
 
-- dataflow diagram
-- app architecture diagram
-- user stories
-- wire frames
-- trello screen shots from part a
+![](https://i.imgur.com/PMDbpAx.png)
+
+![](https://i.imgur.com/hYbAQsR.png)
+
+R6 - 
+![](https://i.imgur.com/xXOaEkl.png)
+
+![](https://i.imgur.com/nV0h3Pd.png)
